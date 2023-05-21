@@ -23,7 +23,7 @@ export const PokemonPage = () => {
 	}, []);
 
 	return (
-		<main className='container main-pokemon'>
+		<main className=' main-pokemon'>
 			{loading ? (
 				<Loader />
 			) : (

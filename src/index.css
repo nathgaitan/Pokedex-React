@@ -91,9 +91,15 @@ header .busqueda{
 
  
 }
-.fa-magnifying-glass{
-    font-size: 20px;
+.icon-search{
+    width: 20px;
+    height: 20px;
    
+}
+.input-search{
+    width: 150px;
+    height: 30px;
+    border-radius:25px ;
 }
 .btn-search{
     border: solid 2px rgba(76, 6, 6, 0.459);
@@ -407,6 +413,16 @@ justify-content: space-between;
     border-radius: 10px;
 }
 
+
+.btn-load-more{
+    border: solid 2px rgba(76, 6, 6, 0.459);
+    background-color:  rgb(173, 25, 25);;
+    padding: 10px;
+    border-radius:25px ;
+    margin: 5px 0px 5px 0px;
+    width: 250px;
+  height: 50px;
+}
 
 @media (min-width: 320px){
     
